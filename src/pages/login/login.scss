@@ -1,0 +1,20 @@
+.login-main {
+    /*position: absolute;
+    top: 30%;
+    padding: 2%;*/
+}
+
+.login-buttom {
+    background-color: #904DB3;
+    width: 40%;
+    margin: auto;
+}
+
+.login-buttom:hover {
+    background-color: rgb(76, 18, 107) !important;
+}
+
+.login-buttons {
+display: flex;
+flex-flow: column;
+}

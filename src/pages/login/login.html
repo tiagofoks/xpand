@@ -1,0 +1,18 @@
+<ion-content>
+        <div class="login-main">
+    <ion-item>
+        <ion-label>Cpf:</ion-label>
+        <ion-input value={{cliente.cpf}}></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Senha:</ion-label>
+        <ion-input type="password" value={{cliente.senha}}></ion-input>
+    </ion-item>
+    <div class="login-buttons">
+        <br/>
+        <button class="login-buttom" (click)="clickHome($event)" ion-button>Entrar</button>
+         <br/>
+         <button class="login-buttom" (click)="clickRegister($event)" ion-button>Cadastrar</button>
+        </div>
+    </div>
+</ion-content>

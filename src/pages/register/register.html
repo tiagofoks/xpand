@@ -1,0 +1,51 @@
+<!--
+  Generated template for the RegisterSucessPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+<div class="header-register">
+    <span>Olá! Para você começar a usar o app, vou precisat de algumas informações.<br/>
+    Vai ser rápido ;)
+    </span>
+</div>
+</ion-header>
+
+
+<ion-content padding>
+    <div style="margin-top: 98px;">
+    <ion-item>
+        <ion-label>Nome:</ion-label><br/>
+        <ion-input value="{{cliente.nome}}"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Data Nascimento:</ion-label><br/>
+        <ion-input value="{{cliente.data}}"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Cpf:</ion-label><br/>
+        <ion-input value="{{cliente.cpf}}"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Produto/Serviço:</ion-label><br/>
+        <ion-input value="{{cliente.produto}}"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Segmento do Negocio:</ion-label><br/>
+        <ion-input value="{{cliente.negocio}}"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Senha:</ion-label><br/>
+        <ion-input value="{{cliente.senha}}" type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Confirme a senha:</ion-label><br/>
+        <ion-input value="{{cliente.senha}}" type="password"></ion-input>
+    </ion-item>
+  </div>
+    <div class="login-buttons">
+        <br />
+        <button class="login-buttom" ion-button (click)="openSucess($event)">Cadastrar</button>
+    </div>
+</ion-content>
